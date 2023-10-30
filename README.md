@@ -45,3 +45,11 @@ $ yarn run start
 # watch mode
 $ yarn run start:dev
 ```
+
+## Deployment
+
+- The API is hosted on [render](https://render.com) which is a PaaS
+
+- Deployment steps are simple and allows auto CI/CD with github
+
+- You can find the official docs [here](https://render.com/docs/deploy-node-express-app)
