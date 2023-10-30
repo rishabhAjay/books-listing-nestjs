@@ -12,9 +12,7 @@ import { ConfigModule } from '@nestjs/config';
     ConfigModule.forRoot({
       load: [configuration],
     }),
-    MongooseModule.forRoot(
-      'mongodb+srv://booksDbUser:CXc1Cfw9qBC5BRwA@books-cluster.7w4zvpw.mongodb.net/?retryWrites=true&w=majority',
-    ),
+    MongooseModule.forRoot(configuration().database.mongoUri),
     AuthorModule,
   ],
   controllers: [AppController],
