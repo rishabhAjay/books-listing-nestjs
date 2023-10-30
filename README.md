@@ -27,11 +27,12 @@ Where you must replace MONGO_URI with the mongoDB url.
 ## Youtube and Deployment Links
 
 Youtube: https://youtu.be/77C_1K8sprU
-Deployed URL:
+Deployed URL: https://books-listing-nestjs.onrender.com
 
 ## Installation
 
 ```bash
+$ npm i -g @nestjs/cli
 $ yarn install
 ```
 
